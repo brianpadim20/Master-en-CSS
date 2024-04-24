@@ -1,15 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ejercicio HTML y CSS</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css" />
     <style></style>
-</head>
-<body>
-    <div id="general">
-
+    </head>
+    <body>
+        <div id="general">
         <header id="header">
             <h1>Ejercicio HTML y CSS</h1>
         </header>
@@ -21,14 +20,16 @@
                 <li><a href="#">Categorías</a></li>
                 <li><a href="#">Contacto</a></li>
             </ul>
+            <div class="clearfix"></div>
         </nav>
 
         <section id="contenido">
+            <h1>Cajas del contenido principal</h1>
             <div class="caja">
                 <h2>Caja 1</h2>
             </div>
 
-            <div class="caja">
+            <div class="caja sombra-interior">
                 <h2>caja 2</h2>
             </div>
 
@@ -55,19 +56,83 @@
             <div class="caja">
                 <h2>Caja 8</h2>
             </div>
-
         </section>
 
-        <sidebar id="lateral">
+        <aside id="lateral">
             <div class="caja">
                 <h2>Elemento de la barra lateral</h2>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut id ipsum
+                    condimentum, sodales massa sit amet, iaculis mauris. Vestibulum
+                    hendrerit felis eget sem fermentum suscipit. Duis porta, dolor ut
+                    tincidunt mollis, sapien libero ullamcorper libero, vitae facilisis
+                    massa dui sit amet lectus. Suspendisse vitae dignissim nibh. Nunc
+                    non viverra mi. Aenean dapibus, quam sit amet malesuada rhoncus,
+                    sapien nisl tempor ipsum, sed sagittis tortor massa sit amet lorem.
+                    Class aptent taciti sociosqu ad litora torquent per conubia nostra,
+                    per inceptos himenaeos. Fusce tincidunt, lorem quis imperdiet
+                    laoreet, orci libero pretium justo, at auctor est est eget mi.
+                    Integer faucibus leo lectus, a rhoncus sapien gravida quis. Aliquam
+                    ac nisi ultricies, elementum ante et, viverra arcu. Nunc consectetur
+                    justo at lacus rutrum sagittis. Class aptent taciti sociosqu ad
+                    litora torquent per conubia nostra, per inceptos himenaeos.
+                    Suspendisse sed elit at risus elementum varius in vitae mauris.
+                    Integer consequat id velit id auctor. Curabitur fringilla nibh arcu,
+                    in faucibus elit tristique et. Phasellus id sem erat. Sed diam nibh,
+                    vestibulum et blandit tincidunt, eleifend sed sem. Sed a est a nibh
+                    ultrices tincidunt. Mauris dictum ultrices risus et scelerisque.
+                    Duis porta ante ac enim placerat suscipit. Donec fermentum id risus
+                    sed lobortis. Nulla eget nisi nunc. Integer tincidunt tortor ut
+                    magna mattis tincidunt. Nullam vehicula risus nunc, ac fermentum
+                    nisl laoreet nec. Phasellus scelerisque placerat massa, et commodo
+                    tellus porta et. Donec tempus fermentum leo, et malesuada nulla
+                    pretium in. Nullam at risus at mauris fringilla iaculis. Maecenas
+                    cursus metus nulla, eu malesuada leo consectetur et. Fusce finibus
+                    lacus massa, finibus ornare odio tincidunt interdum. Proin tincidunt
+                    ac purus vitae pulvinar. Morbi sem eros, tristique a massa vitae,
+                    venenatis vehicula sapien. Integer sit amet nisl a augue semper
+                    ullamcorper. Etiam ac mollis massa. Quisque vitae sem elit. In
+                    semper purus quam. Sed commodo eros mattis nulla venenatis,
+                    sollicitudin rutrum orci ultrices. Class aptent taciti sociosqu ad
+                    litora torquent per conubia nostra, per inceptos himenaeos. Nulla
+                    scelerisque nulla eu urna elementum, eu egestas turpis dapibus.
+                    Pellentesque non diam viverra, auctor purus in, placerat sapien.
+                    Integer pretium lobortis commodo. Aenean velit nisi, ornare sed
+                    rutrum ultricies, porta sit amet augue. Donec placerat lacus auctor
+                    libero dignissim, id ullamcorper ante consectetur. Nunc sed nunc a
+                    tortor sodales volutpat. Nullam lorem diam, accumsan ultricies
+                    vulputate vel, malesuada at dolor. Maecenas consequat ex id libero
+                    ullamcorper pharetra. Donec at dui tortor. Nam ac leo vitae lacus
+                    imperdiet molestie. Aenean dignissim mauris quis turpis consequat,
+                    nec gravida eros iaculis. In ac justo sed urna cursus semper. Cras
+                    sit amet nibh vel leo egestas lacinia. Donec quis tristique ex, et
+                    luctus eros. Fusce iaculis porta cursus. Sed venenatis velit ac
+                    vulputate porttitor. Morbi malesuada est at luctus placerat. Proin
+                    vitae aliquet tortor. Duis lobortis tortor lorem, ut iaculis felis
+                    rhoncus id. Nullam eget efficitur neque. Curabitur convallis feugiat
+                    tortor, sit amet interdum mauris gravida ac. Aliquam sit amet
+                    blandit odio, faucibus pretium nibh. Maecenas eu nulla ut enim
+                    condimentum porta.
+                </p>
             </div>
-        </sidebar>
+        </aside>
 
-        <footer id="footer">
-            Todos los derechos reservados &copy; Brian Andrés Patiño
-        </footer>
+        <div class="clearfix"></div>
+            <footer id="footer">
+                Todos los derechos reservados &copy; Brian Andrés Patiño
+            </footer>
+        </div>
 
-    </div>
-</body>
+        <div class="libre libre1">
+            <p>Soy la caja libre</p>
+        </div>
+
+        <div class="libre libre2">
+            <p>Soy la caja libre 2</p>
+        </div>
+
+        <div class="fija">
+            <p>Soy la caja fija 2</p>
+        </div>
+    </body>
 </html>
