@@ -12,6 +12,16 @@
 }@font-face {
     font-family: "fajala";
     src: url(fonts/FjallaOne-Regular.ttf) format("truetype");
+
+}@font-face {
+    font-family: "icons";
+    src: url(fonts/websymbols-regular-webfont.svg#WebSymbolsRegular),
+        url(fonts/websymbols-regular-webfont.eot),
+        url(fonts/websymbols-regular-webfont.eot#iefix) format("embedded-opentype"),
+        url(fonts/websymbols-regular-webfont.woff) format("woff"),
+        url(fonts/websymbols-regular-webfont.ttf) format("truetype"),
+        url(fonts/websymbols-regular-webfont.svg) format("svg")
+    
 }
 
 /* Estilos generales */
@@ -94,6 +104,17 @@ a{
 
 }.orange{
     color: #d69d2a !important;
+
+}.icon{
+    font-family: "icons";
+    float: left;
+    margin-right: 5px;
+    margin-top: -2px;
+
+}.clearfix{
+    float: none;
+    clear:both;
+
 }
 
 
@@ -341,3 +362,25 @@ a{
     margin-left: 860px;
 
 }
+
+#history{
+    float: right;
+    margin-top: 20px;
+    font-family: sans-serif, Arial, Helvetica;
+    margin-right: 20px;
+}
+/* Pie de página */
+#footer{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 40px;
+    background-color: #333333;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-family: sans-serif;
+    font-size: 14px;
+    box-shadow: 0px 0px 2px gray;
+}
+
