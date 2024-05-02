@@ -39,6 +39,10 @@
 .icon{
     font-family: "WebSymbolsRegular";
 
+}.clearfix{
+    float: none;
+    clear: both;
+
 }
 
 /* Cabecera */
@@ -272,4 +276,135 @@
     margin-top: 25px;
     font-size: 20px;
     
+}#login input[type="submit"],
+#login input[type="button"],
+#login input[type="reset"],
+#login button{
+    /* display: block; */
+    text-align: center;
+    width: 100px;
+    height: 35px;
+    margin-top: 20px;
+    color: white;
+    background: linear-gradient(to bottom, #3eb8e5 0%, #2ca0ca 100%);
+    border: 1px solid #156785;
+    border-radius: 0px;
+    cursor: pointer;
+    font-size: 15px;
+    font-family: "TrebuchetMS";
+    font-weight: lighter;
+    margin-left: 16px;
+    margin-bottom: 20px;
+    transition: all 300ms;
+
+}#login input[type="submit"]:hover,
+#login input[type="button"]:hover,
+#login input[type="reset"]:hover,
+#login button:hover{
+    box-shadow: 0px 0px 3px gray;
+    
+}#login a{
+    display: block;
+    font-size: 14px;
+    text-decoration: none;
+    margin-left: 18px;
+    /* margin-top: 20px; */
+    color: #555;
+
+}#login a:hover{
+    text-decoration: underline;
+    color: #2f78bc;
+
+}#social {
+    height: 190px;
+
+}#social a{
+    display: block;
+    color: #333;
+    text-decoration: none;
+    font-size: 30px;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+}
+
+/* Artículos */
+
+#articles{
+    width: 860px;
+    float: left;
+
+}#articles h2{
+    display: block;
+    width: 100%;
+    height: 75px;
+    line-height: 75px;
+    text-align: center;
+    font-family: "BebasNeue";
+    font-size: 40px;
+    font-weight: normal;
+    letter-spacing: 2px;
+    background:url(img/pxgray.png), white;
+    box-shadow: 0px 1px 0px #393d3f, 1px 2px 0px #393d3f, 2px 3px 0px #393d3f, 3px 4px 0px #393d3f;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 15px;
+
+}#articles article{
+    width: 100%;
+    height: auto;
+    border: 1px solid #ccc;
+    margin: 40px auto;
+    padding: 10px;
+    font-family: "TrebuchetMS";
+    background: white;
+    color: black;
+    box-shadow: 1px 1px 2px #ddd;
+
+}#articles article h4{
+    display: block;
+    font-size: 23px;
+    margin: 3px;
+
+}#articles article h4 a{
+    text-decoration: none;
+    color: #00538c;
+
+}#articles article h4 a:hover{
+    text-decoration: underline;
+
+}#articles .data{
+    float: right;
+    background: #393d3f;
+    color: white;
+    height: 30px;
+    line-height: 30px;
+    margin: -10px;
+    padding: 4px;
+    font-size: 13px;
+    border-radius: 0px 0px 0px 5px;
+
+}#articles .data span{
+    margin: 5px;
+
+}#articles article p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 15px;
+
+}#blog{
+    height: 100px;
+    margin-top: 60px;
+    line-height: 100px;
+    text-align: center;
+
+}#blog a{
+    display: block;
+    font-family: "BebasNeue";
+    font-size: 40px;
+    letter-spacing: 3px;
+    color: #00538c;
+    text-decoration: none;
+
 }
