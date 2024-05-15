@@ -7,6 +7,7 @@
         font-size: 35px;
         text-align: center;
         margin: 33px auto;
+        width: 100%;
 
     }.card{
         width: 17%;
@@ -34,6 +35,72 @@
     }#footer h5{
         font-size: 30px;
 
+    }
+
+}@media (max-width:1080px){
+    /* Tener en cuenta inspeccionar los elementos */
+    .card .category{
+        font-size: 17px;
+
+    }.card .description{
+        font-size: 14px;
+        
+    }#articles{
+        width: 61%;
+
+    }
+
+}@media (max-width:969px){
+    #articles{
+        width: 59%;
+
+    }#footer .wrap > div{
+        width: 26%;
+        margin: 20px;
+
+    }#footer h5{
+        font-size: 22px;
+
+    }
+
+}@media (max-width:922px){
+    #articles{
+        width: 65%;
+
+    }#lateral{
+        width: 25%;
+
+
+    }#lateral input[type="text"]{
+        width: 78%;
+
+    }.aside-box{
+        width: 95%;
+        min-height: 140px;
+        height: auto;
+        padding-bottom: 10px;
+
+    }#login a{
+        margin-top: 10px;
+        margin-bottom: 10px;
+
+    }#login input[type="email"], 
+    #login input[type="password"]{
+        width: 65%;
+
+    }#login #user,
+    #login #password{
+        margin-left: 24px;
+
+    }#login input[type="submit"],
+    #login input[type="reset"],
+    #login input [type="button"],
+    #login button{
+        margin-bottom: 0px;
+
+    }#login input[type="reset"]{
+        display: none;
+        
     }
 
 }
