@@ -103,4 +103,29 @@
 
     }
 
+}@media(max-width:899px){
+    aside h3 {
+        font-size: 20px;
+
+    }
+
+}@media(max-width:799px){
+    #banner h1 {
+        font-size: 29px;
+        
+    }.card{
+        height: auto;
+
+    }.card .category{
+        font-size: 15px;
+        margin-top: -23px;
+
+    }.card .description{
+        display: none;
+
+    }#footer img{
+        margin-bottom: 15px;
+        max-width: 100%;
+    }
+
 }
