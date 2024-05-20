@@ -1,0 +1,22 @@
+// Para compilar: Ir a la consola donde esté el proyecto:
+// sass --watch Estilos.scss styles.css (watch para que siempre esté compilando)
+
+// Variables
+
+$fuente-tipica: sans-serif, Helvetica, Arial;
+$color-fondo: #ccc;
+$color-letra: red;
+$color-secundario: rgb(122, 20, 20);
+
+body{
+    background-color: $color-fondo;
+
+}h1{
+    font-family: $fuente-tipica;
+    color: $color-letra;
+
+}p{
+    color: $color-secundario;
+
+}
+
