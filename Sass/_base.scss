@@ -1,0 +1,49 @@
+// Para compilar: Ir a la consola donde esté el proyecto:
+// sass --watch Estilos.scss styles.css (watch para que siempre esté compilando)
+
+// Variables
+
+$fuente-tipica: sans-serif, Helvetica, Arial;
+$color-fondo: #ccc;
+$color-letra: red;
+$color-secundario: rgb(122, 20, 20);
+
+body{
+    background-color: $color-fondo;
+
+}h1{
+    font-family: $fuente-tipica;
+    color: $color-letra;
+
+}p{
+    color: $color-secundario;
+
+}
+
+// Anidación
+.caja{
+    border: 1px solid black;
+    width: 500px;
+    margin: 0px auto;
+    text-align: center;
+    background-color: white;
+    padding: 10px;
+    h1{
+        color: blue;
+
+    }p{
+        color: green;
+
+    }.info{
+        font-size: 10px;
+        
+        .autor{
+            font-size: 15px;
+            color: orange;
+        }
+    }
+}
+// Como se ve, todo queda dentro de una caja y no hacer varias llamadas a la caja
+
+
+
